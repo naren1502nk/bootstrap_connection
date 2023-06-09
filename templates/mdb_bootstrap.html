@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+    <style>
+        #div{
+            border-bottom-left-radius: 0 0 60px;
+            border-top-right-radius: 0 0 60px;
+        }
+        img{
+            width: 400px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <div id="div1">
+            <img src="{% static 'images/luffy.jpg' %}" alt="">
+            <img src="{% static 'images/shinchan.jpg' %}" alt="">
+            <img src="{% static 'images/iron_boy.jpg' %}" alt="">
+        </div>
+    </center>
+
+    
+
+
+
+
+
+
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+</body>
+</html>
+
+
